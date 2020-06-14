@@ -1,10 +1,11 @@
 import React from 'react';
-import logo from './img/logo.svg';
 
 const Header = () => {
   return (
-    <header className="app__header">
-      <img src={logo} className="App-logo" alt="logo" />
+    <header className="app__header container">
+      <h1>
+        DeaExMachina
+      </h1>
     </header>
   );
 }

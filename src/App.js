@@ -1,12 +1,24 @@
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
+import Intro from './Intro';
+import Platforms from './Platforms';
+import Overwatch from './Overwatch';
+import Specs from './Specs';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Header />
+
+      <main>
+        <Intro />
+        <Platforms />
+        <Overwatch />
+        <Specs />
+      </main>
+      
       <Footer />
     </div>
   );
