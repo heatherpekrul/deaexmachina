@@ -5,6 +5,7 @@ import Intro from './Intro';
 import Platforms from './Platforms';
 import Overwatch from './Overwatch';
 import Specs from './Specs';
+import Accolades from './Accolades';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Intro />
         <Platforms />
         <Overwatch />
+        <Accolades />
         <Specs />
       </main>
       

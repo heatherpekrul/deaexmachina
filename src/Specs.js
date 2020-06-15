@@ -3,24 +3,24 @@ import React from 'react';
 const Specs = () => {
   return (
     <section className="app__specs container">
-      <h1>Specs</h1>
+      <h1>PC Specs</h1>
       <table>
         <tbody>
           <tr>
             <th>CPU</th>
-            <td>Core i7 3770K</td>
+            <td>Core i7 4770K</td>
           </tr>
           <tr>
             <th>RAM</th>
-            <td>PNY XLR8 2x8GB</td>
+            <td>PNY XLR8 24GB</td>
           </tr>
           <tr>
             <th>Motherboard</th>
-            <td>ASRock B75M-ITX</td>
+            <td>MSI Z97-G43 Gaming</td>
           </tr>
           <tr>
             <th>GPU</th>
-            <td>Asus GTX 1070</td>
+            <td>Gigabyte GTX 1080</td>
           </tr>
           <tr>
             <th>Keyboard</th>

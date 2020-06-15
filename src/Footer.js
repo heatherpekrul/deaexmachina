@@ -3,7 +3,7 @@ import Config from './config';
 
 const Footer = () => {
   return (
-    <footer className="app__footer container">
+    <footer className="app__footer">
       &copy; Copyright 2020 <a href="https://heatherpekrul.com">
         { Config.author }
       </a>.

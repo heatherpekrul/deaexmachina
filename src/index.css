@@ -1,10 +1,11 @@
 :root {
   /* COLORS */
-  --color-cherry-blossom: #ffb8c5;
+  --color-cherry-blossom: #df79c4;
   --color-riptide: #8ce6df;
   --color-iris: #594acc;
   --color-tangerine: #f99b7d;
   --color-thalassophobia: #0d1829;
+  --color-ocean: #1c9ffd;
 
   /* FONTS */
   --font-accent: 'Bebas Neue', cursive;
@@ -77,8 +78,20 @@ h6 {
   font-size: 1em;
 }
 
-a {
-  color: var(--color-riptide);
+a,
+a:link,
+a:visited {
+  color: var(--color-ocean);
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 1px solid transparent;
+  display: inline-block;
+  padding: 0 0 0.25em 0;
+  transition: border-bottom-color 0.2s;
+}
+
+a:hover {
+  border-bottom-color: var(--color-iris);
 }
 
 table {

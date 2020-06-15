@@ -22,7 +22,7 @@ const Platforms = () => {
         <li>
           <img src={Blizzard} alt="" />
           <h2>Battle.net</h2>
-          <p>DEAEXMACHINA#11426</p>
+          <p>DeaExMachina#11426</p>
         </li>
 
         <li>

@@ -7,7 +7,23 @@
 }
 
 .app__header h1 {
-  font-size: 6rem;
+  font-size: 8rem;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-image: url('/img/circuit-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.app__intro {
+  background: url('/img/circuit-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 6rem 1rem;
+  font-size: 1.5rem;
+  text-shadow: 0 0 0.25em rgba(0, 0, 0, 0.85);
 }
 
 .app__platforms ul {
@@ -19,9 +35,21 @@
 }
 
 .app__platforms li {
-  flex: 0 0 25%;
+  flex: 0 0 100%;
   padding: 2rem;
   transition: background-color 0.5s;
+}
+
+@media (min-width: 480px) {
+  .app__platforms li {
+    flex-basis: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .app__platforms li {
+    flex-basis: 25%;
+  }
 }
 
 .app__platforms li:hover {
@@ -38,6 +66,25 @@
   min-height: 6rem;
 }
 
+.app__accolades ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.app__accolades li {
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+
+.app__overwatch ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .app__footer {
-  font-size: 0.85rem;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem 1rem;
+  font-size: 0.75rem;
 }
