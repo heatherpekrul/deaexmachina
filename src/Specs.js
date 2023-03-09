@@ -8,19 +8,23 @@ const Specs = () => {
         <tbody>
           <tr>
             <th>CPU</th>
-            <td>Core i7 4770K</td>
+            <td>Core i7 12700K</td>
           </tr>
           <tr>
             <th>RAM</th>
-            <td>PNY XLR8 24GB</td>
+            <td>Corsair Vengence 2x16GB </td>
           </tr>
           <tr>
             <th>Motherboard</th>
-            <td>MSI Z97-G43 Gaming</td>
+            <td>ASUS Z690-P Prime</td>
           </tr>
           <tr>
             <th>GPU</th>
-            <td>Gigabyte GTX 1080</td>
+            <td>RTX 2080ti FE</td>
+          </tr>
+          <tr>
+            <th>Heatsink</th>
+            <td>Scythe Fuma 2 Rev.B</td>
           </tr>
           <tr>
             <th>Keyboard</th>
@@ -28,7 +32,7 @@ const Specs = () => {
           </tr>
           <tr>
             <th>Mouse</th>
-            <td>Logitech M510</td>
+            <td>Glorious Model O-</td>
           </tr>
         </tbody>
       </table>
